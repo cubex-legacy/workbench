@@ -1,4 +1,4 @@
-workbench
-=========
+Cubex Workbench Project
+===
 
-Cubex Workbench
+Testing Cubex framework from cubex source
