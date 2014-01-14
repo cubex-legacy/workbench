@@ -12,11 +12,13 @@
     }
   ],
   "require":           {
-    "php":            ">=5.4.0",
-    "cubex/figlet":   "*",
-    "filp/whoops":    "1.*",
-    "psr/log":        "1.0.0",
-    "bundl/debugger": "*"
+    "php":                 ">=5.4.0",
+    "cubex/figlet":        "*",
+    "filp/whoops":         "1.*",
+    "psr/log":             "1.0.0",
+    "symfony/http-kernel": "*",
+    "bundl/debugtoolbar":  "*",
+    "bundl/debugger":      "*"
   },
   "autoload":          {
     "files": [

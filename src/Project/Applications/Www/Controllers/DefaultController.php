@@ -22,17 +22,12 @@ class DefaultController extends WebpageController
 
   public function preProcess()
   {
-    $this->requireCss(
-      'http://twitter.github.com/bootstrap/assets/css/bootstrap.css'
-    );
+    $this->requireCssLibrary('bootstrap');
     $this->requireCss('/base');
 
-    $this->requireJs('http://code.jquery.com/jquery-latest.js');
-    $this->requireJs(
-      'http://twitter.github.com/bootstrap/assets/js/bootstrap.min.js'
-    );
+    $this->requireJsLibrary('jquery');
+    $this->requireJsLibrary('bootstrap');
   }
-
 
   public function renderIndex()
   {

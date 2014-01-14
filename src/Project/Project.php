@@ -5,6 +5,8 @@
 
 namespace Project;
 
+use Bundl\DebugToolbar\DebugToolbarBundl;
+
 class Project extends \Cubex\Core\Project\Project
 {
   /**
@@ -23,5 +25,10 @@ class Project extends \Cubex\Core\Project\Project
   public function defaultApplication()
   {
     return new Applications\Www\WwwApplication();
+  }
+
+  public function getBundles()
+  {
+    return [new DebugToolbarBundl()];
   }
 }
